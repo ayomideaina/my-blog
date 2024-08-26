@@ -1,0 +1,43 @@
+/* for large devices*/
+@media  (max-width:900px){
+    .blogpost{
+        /* width: 350px; */
+        height: 200px;
+    }
+}
+
+
+
+/* for medium devices (tablet) */
+@media (max-width:768px){}
+   
+
+/* for small devices */
+@media (max-width:576px) {
+    .content{
+        width: 380px;
+    }
+    .blogpost{
+        width: 350px;
+        height: 100%;
+        margin-right: auto;
+    }
+    .container h2{
+        font-size:25px;
+    }
+    h4{
+        font-size: 18px;
+    }
+    .container li a{
+        font-size: 16px;
+    }
+}
+
+/* for smaller devices */
+@media(max-width:386px){
+    .blogpost{
+        width: 287px;
+        font-size: 16px;
+        padding-right:17px;
+    }
+}

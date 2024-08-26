@@ -1,0 +1,78 @@
+*{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+body{
+    background-color: rgb(219, 107, 219);
+}
+.container{
+    margin: 20px;
+    /* width: 100%; */
+}
+/* Nav bar section */
+.container h2{
+    margin-top: 20px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-size:30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container ul {
+    display: flex;
+    gap: 20px;
+    justify-content:center;
+    list-style: none;
+}
+.container li a{
+    color: white;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.container li a:hover {
+    color:rgb(245, 12, 112);
+    text-decoration: underline;
+    transform: scale(0.2);
+}
+/* Blog post */
+.content {
+    /* background-color:rgb(238, 45, 180); */
+    padding: 15px;
+    /* margin-left: 20px; */
+    border: 30px;
+    width:100%;
+}
+span a{
+    text-decoration: none;
+    color:rgb(245, 12, 112);
+}
+.content h3{
+    padding: 10px 0px;
+}
+.blogpost{
+    background-color: white;
+    width:100%;
+    height: 160px;
+    border-radius: 5px;
+    box-shadow:1px 1px;
+    padding:15px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+}
+.standard {
+    line-height:1.5;
+}
+
+h4{
+    text-align: center;
+    color: white;
+    font-size: 23px;
+    font-weight: 750;
+    margin: 10px 0px;
+}
+.footer{
+    margin-bottom:25px;
+}
